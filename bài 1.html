@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thông tin cá nhân</title>
+    <style>
+        body {
+            background-color: #faf6f6; 
+        }
+        form {
+            background-color: #dbe17d; 
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            margin: 0 auto;
+        }
+        #tuoi {
+            background-color: #eaea27; 
+        }
+    </style>
+</head>
+<body>
+   
+    <form action="/submit_form" method="post">
+         
+         <h2>Thông tin cá nhân</h2>
+        <div>
+            <label for="hoTen">Họ và tên:</label><br>
+            <input type="text" id="hoTen" name="hoTen" required>
+        </div>
+        <div>
+            <label for="tuoi">Tuổi:</label><br>
+            <input type="number" id="tuoi" name="tuoi" required>
+        </div>
+        <div>
+            <input type="submit" value="Gửi">
+        </div>
+    </form>
+</body>
+</html>
