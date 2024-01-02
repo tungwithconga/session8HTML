@@ -1,0 +1,15 @@
+.square{
+   width:150px;
+   height:150px;
+   background-color:aqua;
+   transition-timing-function: linear
+   transition-property:all;
+}
+.square:hover{
+    cursor:pointer;
+    border-radius: 60px;
+    background-color: brown;
+    transition-duration: 5s;
+    border-radius: 50%;
+    background-color: red;
+}
